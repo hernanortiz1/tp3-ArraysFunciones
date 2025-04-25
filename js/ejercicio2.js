@@ -20,7 +20,15 @@ do {
   }
 } while (entrada !== null);
 
-document.writeln("datos en array");
+ciudades.splice(1,0,"Barcelona");
+ciudades.push("Paris");
+
+document.writeln(`<p>Longitud de array: ${ciudades.length} </p>`);
+document.writeln(`<p>item en primera posición: ${ciudades[0]} </p>`);
+document.writeln(`<p>item en tercera posición: ${ciudades[2]} </p>`);
+document.writeln(`<p>item en ultima posición: ${ciudades[ciudades.length - 1]} </p>`);
+
+document.writeln(`Datos del array`);
 document.writeln(`<ul>`);
 for(let i=0; i<ciudades.length; i++){
     document.writeln(`<li>${ciudades[i]} </li>`); 
