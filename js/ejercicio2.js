@@ -20,9 +20,8 @@ do {
   }
 } while (entrada !== null);
 
-ciudades.splice(1,0,"Barcelona");
+ciudades.splice(1,1,"Barcelona");
 ciudades.push("Paris");
-
 document.writeln(`<p>Longitud de array: ${ciudades.length} </p>`);
 document.writeln(`<p>item en primera posición: ${ciudades[0]} </p>`);
 document.writeln(`<p>item en tercera posición: ${ciudades[2]} </p>`);
