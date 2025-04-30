@@ -21,8 +21,8 @@ let contador2 = 0,
   contador12 = 0;
 for (let i = 0; i < 50; i++) {
   let sumar = 0;
-  let dado1 = Math.floor(Math.random() * 6) + 1;
-  let dado2 = Math.floor(Math.random() * 6) + 1;
+  const dado1 = Math.floor(Math.random() * 6) + 1;
+  const dado2 = Math.floor(Math.random() * 6) + 1;
   sumar += dado1 + dado2;
 
   suma.push(sumar);
